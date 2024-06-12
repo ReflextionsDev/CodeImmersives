@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<!-- Image Poll (ImgPoll) should provide a simple interface to upload two images. Then display both image in a poll style fashion. Eventually can add options for more images / rows / etc.
+
+User story:
+- Ask for upload
+- Show an image preview once uploaded
+- Once both images are uploaded display a button saying next
+- On button click, hide all upload elements and display both images in a poll style
+- Once an image has been selected display a button saying next
+- Display a page counting the total votes so far, then allow user to add a vote or restart poll
+-->
+
+<html>
+    <head>
+        <link href="index.css" rel="stylesheet"></link>
+        
+    </head>
+
+    <body>
+        <header>
+            <h1>Image Poll</h1>
+        </header>
+
+
+        <main>
+            <div id='prompt'>
+                <p>Upload two photos to compare.</p>
+
+                <input type="file" id="input_pic1" name="pic1" accept="image/png, image/jpeg, image/gif">
+                <input type="file" id="input_pic2" name="pic2" accept="image/png, image/jpeg, image/gif">
+
+                <div id = 'preview'>
+                    <img id="poll_pic1" style="width: 300px;">
+                    <img id="poll_pic2" style="width: 300px;">
+                </div>
+    
+                <button id='btn_pollstart'>Next</button>
+            </div>
+
+
+
+
+            <!-- <div id='poll'>
+                <h2>Choose your favorite:</h2>
+    
+                <form class='choice'>
+                    <input type="radio" name='choice1' value='pic1'><img id="poll_pic1" alt="Option 1">
+                    <input type="radio" name='choice1' value='pic2'><img id="poll_pic2" alt="Option 2">
+                </form>
+            </div> -->
+
+        </main>
+
+
+        <footer>
+
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.green {
+    color:darkgreen;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    float: left;
+    padding-right: 25px;
+}

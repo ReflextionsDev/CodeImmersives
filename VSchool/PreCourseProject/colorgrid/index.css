@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+}
+
+/* Colors:
+    #F5C6D6
+    #EE2E84
+    #85CFD8
+    #8DC63F
+    #E76E34
+*/
+
+
+div {
+    
+    height: 150px;
+    padding: 10px;
+    border: 10px solid white;
+    display: inline-block;
+}
+
+.one {
+    background-color: #F5C6D6;
+    width: 100%;
+}
+
+.two {
+    background-color: #EE2E84;
+    width: 25%;
+}
+
+.three {
+    background-color: #85CFD8;
+    width: 50%;
+}
+
+.four {
+    background-color: #8DC63F;
+    width: 75%;
+}
+
+.five {
+    background-color: #E76E34;
+    width: 25%
+}

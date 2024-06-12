@@ -1,0 +1,32 @@
+p {
+    display: inline-block;
+    width: 30%;
+    -webkit-text-size-adjust: ;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    background-color: teal;
+    font-size: xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: wheat;
+    display: block;
+    text-decoration: underline;
+    text-decoration-style: double;
+    border: rebeccapurple;
+}
+
+h2 {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: rebeccapurple;
+    border-style: double;
+}
+
+.callout {
+    display: inline;
+    color:rgb(100,234,50)
+}

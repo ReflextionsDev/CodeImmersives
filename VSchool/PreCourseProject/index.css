@@ -1,0 +1,16 @@
+/* Select element, then add class name */
+
+/* Selects in order of listing... all classes in div
+    can be in any order
+*/
+
+div .divclass {
+    color:aqua;
+}
+
+
+/* Child selector, classname then element */
+
+.parentclass > p {
+    background: green;
+}
