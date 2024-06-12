@@ -1,0 +1,18 @@
+* {
+    text-align: center;
+}
+
+#clothes {
+    display: flex;
+    justify-content: space-around;
+}
+
+#clothes div {
+    display: flex;
+    flex-direction: column;
+}
+
+#clothes img {
+    max-width: 200px;
+    height: auto;
+}

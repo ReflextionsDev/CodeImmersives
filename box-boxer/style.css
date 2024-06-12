@@ -1,0 +1,45 @@
+#first {
+  background-color: red;
+  width: 65px;
+  height: 65px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 100px;
+  background-clip: content-box;
+}
+
+#second {
+  background-color: red;
+  width: 65px;
+  height: 65px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-clip: content-box;
+}
+
+#third {
+  background-color: red;
+  width: 65px;
+  height: 65px;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  padding: 20px;
+  padding-bottom: 50px;
+  background-clip: content-box;
+}
+
+#fourth {
+  background-color: red;
+  width: 65px;
+  height: 65px;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-left: 150px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  background-clip: content-box;
+}

@@ -1,0 +1,22 @@
+.app {
+  text-align: center;
+}
+
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog {
+  margin: 10px;
+  border: 1px black solid;
+  width: 18vw; 
+}
+
+.blog__body {
+  width: 90%;
+  height: 300px;
+  resize: none;
+  
+}

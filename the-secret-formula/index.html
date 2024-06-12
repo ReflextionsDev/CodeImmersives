@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Part 1 -->
+    <h1>Alert Me</h1>
+    <form>
+        <label>Alert Text</label>
+        <input type="text" id='testInput'>
+        <button>submit</button>
+    </form>
+
+    <br>
+
+    <!-- Part 2 -->
+    <h1>Sandwich Builder</h1>
+    <form id='sandwich'>
+        <div>
+            <label>Bread Type:</label>
+            <div>
+                <input type="radio" class='bread' id="wheat" name="bread">
+                <label>Wheat</label>
+            </div>
+            <div>
+                <input type="radio" class='bread' id="rye" name="bread">
+                <label>Rye</label>
+            </div>
+            <div>
+                <input type="radio" class='bread' id="white" name="bread">
+                <label>White</label>
+            </div>
+
+            <div>
+                <input type="checkbox" class='topping' id="turkey" />
+                <label>Turkey</label>
+            </div>
+            <div>
+                <input type="checkbox" class='topping' id="ham" />
+                <label>Ham</label>
+            </div>
+            <div>
+                <input type="checkbox" class='topping' id="cheddar" />
+                <label>Cheddar</label>
+            </div>
+            <div>
+                <input type="checkbox" class='topping' id="swiss" />
+                <label>Swiss</label>
+            </div>
+            <div>
+                <input type="checkbox" class='topping' id="mozzeralla" />
+                <label>Mozzeralla</label>
+            </div>
+            <div>
+                <input type="checkbox" class='topping' id="lettuce" />
+                <label>Lettuce</label>
+            </div>
+            <div>
+                <input type="checkbox" class='topping' id="bacon" />
+                <label>Bacon</label>
+            </div>
+            <div>
+                <input type="checkbox" class='topping' id="mayo" />
+                <label>Mayo</label>
+            </div>
+            <div>
+                <input type="checkbox" class='topping' id="tomato" />
+                <label>Tomato</label>
+            </div>
+        </div>
+
+        <button id='order'>Place Order</button>
+    </form>
+
+    <br>
+
+    <!-- Part 3 -->
+    <h1>Haircut Scheduler</h1>
+    <form id='haircut'>
+        <div>
+            <label>Date: </label>
+            <input type="date" id='hair_date'>
+        </div>
+        <div>
+            <label>Haircutter: </label>
+            <input type="text" id='hair_haircutter'>
+        </div>
+        <div>
+            <label>Style:</label>
+            <div>
+                <input type="radio" class='hairstyle' id="long" name="style">
+                <label>Long Hair</label>
+            </div>
+            <div>
+                <input type="radio" class='hairstyle' id="short" name="style">
+                <label>Short Hair</label>
+            </div>
+        </div>
+        <button id='appointment'>Schedule Appointment</button>
+    </form>
+
+    <!-- Part 4 -->
+    <h1>Create Account</h1>
+    <form id = 'account'>
+        <div>
+            <div>
+                <label>Username: </label>
+                <input type="text" id='account-username'>
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="email" id='account-email'>
+            </div>
+            <div>
+                <label>Password: </label>
+                <input type="password" id='account-password'>
+            </div>
+            <div>
+                <label>Confirm Password: </label>
+                <input type="password" id='account-confirmpassword'>
+            </div>
+            <div>
+                <button id ='account-submit'>Create Account</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>

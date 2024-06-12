@@ -1,0 +1,24 @@
+li {
+    font-style: italic;
+    margin: 10px;
+}
+
+div {
+    border: 5px solid blue;
+    padding: 25px;
+    box-shadow: 10px 10px 5px gray;
+    background-color: lightblue;
+    margin: 80px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    border-radius: 50px;
+}
+
+body {
+    background-image: url(https://lorelleteaches.files.wordpress.com/2012/08/seamless-background-image-tile.jpg);
+}

@@ -1,0 +1,15 @@
+Explain what the ".map" properties of arrays does.
+
+.map iterates through every element of an array and performs defined logic before returning it as a new array
+
+Explain what the ".reduce" properties of arrays does.
+
+.reduce iterates through every element of an array and reduces it to a single value via an accumulator value
+
+How is ".map" different from reduce?
+
+.map does not carry over an accumulator value between iterations
+
+What are "switch" statements?
+
+Switch statements are similar to if / else if / else but immediatly jump to the matching case rather than running through the statement linerally. The default case performs as an else or a catch all condition.

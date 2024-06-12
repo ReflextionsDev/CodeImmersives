@@ -1,0 +1,35 @@
+1. What does it mean when we say javascript is asynchronous?
+
+It is possible for JS to run multiple processes or logic bloocks at a time.
+
+2. What are javascript promises?
+
+Promises are functions that return either a resolve or reject based on internal logic
+
+3. What does it mean when a promise resolves?
+
+This is called when the defined logic executes as expected
+
+4. What does it mean when a promise rejects?
+
+This occurs when there is an error with the promise logic, or resource is inaccesible
+
+5. Explain the use of .then() on promises
+
+.then() is chained onto a promise function and is executed when the promise resolves
+
+6. 5. Explain the use of .catch() on promises
+
+.catch() is chained onto a promise function or .then() and is executed when a promise rejects
+
+7. Explain the use of .finally() on promises
+
+.finally() is chained after both a .then and .catch and executes regardless of whether a promise resolves or rejects
+
+8. Explain async functions and how async/await are used.
+
+Async functions make it possible attempt multiple promises at once without having to wait for the previous one to complete using linear .then() syntax. Functions are defined as async and variable assignments with async promises are designated with await to indicate they will not be assigned until the promise has resolved or rejected
+
+9. Provide one example of how promises can be used.
+
+Promises are frequently used for fetching data from a server. If the data retrieves sucesfully the promise resolves, if not, it rejects.

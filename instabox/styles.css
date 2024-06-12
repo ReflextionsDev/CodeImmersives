@@ -1,0 +1,82 @@
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.parent {
+    /* border: 3px solid red; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    /* border: 3px solid orange; */
+    padding: 10px;
+    display: flex;
+    margin: 0% 10%;
+    /* justify-content: center;
+    align-content: center; */
+}
+
+.icon {
+    /* border: 3px solid green; */
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    /* border: 3px solid green; */
+    padding: 10px;
+    margin: 10px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-row {
+    /* border: 3px solid yellow; */
+}
+
+.information-column1 {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.information-column2 {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.information-column3 {
+    padding: 10px;
+}
+
+.categories {
+    /* border: 3px solid orange; */
+    padding: 1% 10%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.page {
+    /* border: 3px solid green; */
+}
